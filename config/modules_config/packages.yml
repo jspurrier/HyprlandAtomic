@@ -1,4 +1,5 @@
 # Here you can place the packages that will be installed and removed
+# Some might be able to be removed
 type: rpm-ostree
 repos: 
    - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-39/solopasha-hyprland-fedora-39.repo
