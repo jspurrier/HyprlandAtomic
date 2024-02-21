@@ -21,7 +21,8 @@ install:
    - swaybg
    - swayidle
    - swaylock
-   # grim
+   - grim
+   - slurp
 
    # wayland
    - wl-clipboard
@@ -78,12 +79,11 @@ install:
 
    # terminal apps
    - parallel
-   # kitty
+   - kitty
    - udiskie
    - arp-scan
    - git
    - xterm
-   - alacritty
    - foot
 
    # Drivers
