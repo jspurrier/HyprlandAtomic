@@ -1,0 +1,140 @@
+# Here you can place the packages that will be installed and removed
+type: rpm-ostree
+repos: 
+   - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-39/solopasha-hyprland-fedora-39.repo
+install:
+   # hyprland
+   - hyprland
+   - xdg-desktop-portal-hyprland
+   - xdg-user-dirs
+   - dunst
+   # rofi-wayland
+   - waybar
+   - hyprpaper
+   - hyprpicker
+   - hyprshot
+   - sddm
+   - sddm-wayland-generic
+   - sddm-breeze
+
+   # sway
+   - swaybg
+   - swayidle
+   - swaylock
+   # grim
+
+   # wayland
+   - wl-clipboard
+   - wf-recorder
+   - wlogout
+
+   # KDE Stuff
+   # kde-cli-tools 
+   #- polkit-kde
+   # dolphin
+   # ark
+   # kate
+
+   # android
+   - android-tools
+   - android-file-transfer
+
+   # audio
+   - pipewire
+   - wireplumber
+   - pavucontrol
+
+   # bluetooth
+   - bluez
+   - bluez-tools
+   - blueman
+   - python3-cairo
+
+   # network
+   - network-manager-applet
+   - NetworkManager-l2tp-gnome
+   - NetworkManager-libreswan-gnome
+   - NetworkManager-openconnect-gnome
+   - NetworkManager-openvpn-gnome
+   - NetworkManager-pptp-gnome
+   - NetworkManager-sstp-gnome
+   - NetworkManager-vpnc-gnome
+
+   # qt stuff
+   - qt5-qtgraphicaleffects
+   - qt5-qtquickcontrols
+   - qt5-qtquickcontrols2
+   - qt5-qtwayland
+   - qt6-qtwayland
+   - qt5ct
+   - qt6ct
+   - qt5-qtsvg
+   - kvantum
+   
+   # gtk stuff
+   - gsettings-desktop-schemas 
+   - lxappearance
+   - gtk3
+
+   # terminal apps
+   - parallel
+   # kitty
+   - udiskie
+   - arp-scan
+   - git
+   - xterm
+   - alacritty
+   - foot
+
+   # Drivers
+   # akmod-nvidia
+   # xorg-x11-drv-nvidia-cuda
+   # mesa-dri-drivers
+   # mesa-vulkan-drivers
+   # mesa-filesystem
+   # mesa-libEGL
+   # mesa-libGLU
+   # mesa-libgbm
+   # mesa-libglapi
+   # mesa-libxatracker
+   # mesa-va-drivers
+
+   # others
+   - plymouth
+   - gnome-keyring-pam
+   - qemu-guest-agent
+   - pam_afs_session
+   - selinux-policy-targeted
+   - system-config-printer
+   - plymouth-system-theme
+   - bolt
+   - brightnessctl
+   - fprintd-pam
+   - lxqt-policykit
+   - gvfs
+   - gvfs-mtp
+   - libxcrypt-compat
+   - python3
+   - harfbuzz
+   - libcanberra
+   - ImageMagick
+   - freetype
+   - fontconfig
+   - openssl
+   - libpng
+
+   # apps
+   - featherpad
+   - mousepad
+   - slurp
+   - swappy 
+   - cliphist
+   - yad
+   - swww
+   - thunar
+   - mediawriter
+
+remove:
+   #- distrobox
+   #- firefox # default firefox removed in favor of flatpak
+   #- firefox-langpacks # langpacks needs to also be removed to prevent dependency problems

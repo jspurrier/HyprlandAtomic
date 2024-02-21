@@ -1,0 +1,12 @@
+preload = ~/.config/hypr/wallpaper/wallpaper-monitor1.png
+preload = ~/.config/hypr/walllpaper/wallpaper-monitor2.png
+
+#1 Both Monitors
+#wallpaper = ,~/.config/hypr/wallpaper/wallpaper.png
+
+#2 Multiple Monitors each different image
+wallpaper = monitor1,~/.config/hypr/wallpaper/wallpaper-monitor1.png
+wallpaper = monitor2,~/.config/hypr/wallpaper/wallpaper-monitor2.png
+
+#enable splash text rendering over the wallpaper
+splash = false

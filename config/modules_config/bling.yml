@@ -1,0 +1,6 @@
+type: bling # configure what to pull in from ublue-os/bling - https://github.com/ublue-os/bling/tree/main/modules/bling/installers
+install:
+  - flatpaksync
+  - dconf-update-service
+  - ublue-os-wallpapers
+  - ublue-update
