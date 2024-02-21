@@ -14,7 +14,7 @@ install:
    - hyprpicker
    - hyprshot
    - sddm
-   - sddm-wayland-generic
+   # sddm-wayland-generic
    - sddm-breeze
 
    # sway
@@ -87,17 +87,17 @@ install:
    - foot
 
    # Drivers
-   # akmod-nvidia
-   # xorg-x11-drv-nvidia-cuda
-   # mesa-dri-drivers
-   # mesa-vulkan-drivers
-   # mesa-filesystem
-   # mesa-libEGL
-   # mesa-libGLU
-   # mesa-libgbm
-   # mesa-libglapi
-   # mesa-libxatracker
-   # mesa-va-drivers
+   - akmod-nvidia
+   - xorg-x11-drv-nvidia-cuda
+   - mesa-dri-drivers
+   - mesa-vulkan-drivers
+   - mesa-filesystem
+   - mesa-libEGL
+   - mesa-libGLU
+   - mesa-libgbm
+   - mesa-libglapi
+   - mesa-libxatracker
+   - mesa-va-drivers
 
    # others
    - plymouth
