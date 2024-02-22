@@ -1,5 +1,4 @@
 #Based on Hyprland
-#Updated
 ublue_variants:
   - label: jspurrier/hyprlandatomic
     ks: /kickstart/ublue-os.ks
