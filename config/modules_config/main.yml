@@ -1,4 +1,3 @@
-
 modules:
   - from-file: modules_config/files.yml
   - from-file: modules_config/packages.yml
